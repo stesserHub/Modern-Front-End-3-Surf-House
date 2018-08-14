@@ -1,5 +1,23 @@
 [
     {
+        "id":0,
+        "type": "board",
+        "title": "peeeky cropped",
+        "img1": "/static/thumb.png",
+        "img2": "/static/thumb.png",
+        "img3": "/static/thumb.png",
+        "price": 1234.56,
+        "altprice":9000.01,
+        "label":"hot",
+        "size": 10,
+        "length":34,
+        "overview": "This product is cut out for breaking a huge wave, waka waka",
+        "description": "Wild rider board my dude",
+        "information": "Can you believe it!",
+        "review": "This board is wild dude right?",
+        "tags": "Waka"
+    },
+    {
         "id": 1,
         "type": "running shoe",
         "title": "gel-fujitrabuco 5 g-tx",
@@ -90,3 +108,5 @@
         "imgFront": "/static/front.png"
     }
 ]
+
+

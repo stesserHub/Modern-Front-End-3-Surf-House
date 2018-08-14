@@ -7,25 +7,19 @@
                 <div class="product" v-for="product in products" :key="product.id">
             <router-link :to="/productpage/ + product.id">
                 <div style="border:2px solid pink;">
-                        <span>
-                            {{product.rating}}
-                        </span>                    
-                        <img v-bind:src="product.imgSide"/>
+                        <div class="label">
+                            {{product.label}}
+                        </div>                    
+                        <img v-bind:src="product.img1"/>
                     <p style="text-transform: uppercase;">
                         {{product.title}}
-                    </p>
-                    <p style="text-transform: uppercase;">
-                        {{product.type}}
-                    </p>
+                    </p>                
                     <p>
-                        {{product.description}}
-                    </p>                    
-                    <p>
-                        $ {{product.price}}
-                    </p>                    
-                    <div class="productBtn">
-                    buy now
-                </div>
+                        €. {{product.price}}
+                    </p>
+                    <p style="text-decoration: line-through;">
+                        €. {{product.altprice}}
+                    </p>
                 </div>
             </router-link>
         </div>

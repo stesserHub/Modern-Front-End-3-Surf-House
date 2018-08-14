@@ -1,3 +1,15 @@
+@import "variables";
+
+a {
+    text-decoration: none;
+}
+
 h1 {
     color:lime;
+}
+
+.label {
+    display: block;
+    background-color: $cta1;
+    color: $cta1;
 }
