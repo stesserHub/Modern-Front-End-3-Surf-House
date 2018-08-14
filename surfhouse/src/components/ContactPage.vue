@@ -7,17 +7,23 @@
             If you have questions about your order or need any general information our customer service team will be happy to assist you    
         </p>
         <form action="post">
-            <label for="customername">
+            <label for="name">
                 full name*
             </label>
             <br>
-            <input type="text" name="customername" >
+            <input type="text" name="name" v-validate="'required'">
+            <span>
+                {{ errors.first('name') }}
+            </span>
             <br>
             <label for="customeremail">
                 email*
             </label>
             <br>
-            <input type="email" name="customeremail">
+            <input type="email" name="email" v-validate="'required|email'">
+            <span>
+                {{ errors.first('email') }}
+            </span>
             <br>
             <label for="company">
                 company
@@ -29,7 +35,10 @@
                 subject*
             </label>
             <br>
-            <input type="text" name="subject">
+            <input type="text" name="subject" v-validate="'required'">
+            <span>
+                {{ errors.first('subject') }}
+            </span>
             <br>            
             <label for="message">
                 message
