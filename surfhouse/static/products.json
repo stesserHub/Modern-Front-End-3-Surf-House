@@ -7,7 +7,7 @@
         "discount": 15.00,
         "rating": 3,
         "description": "It's very nice!",
-        "imgSide": "/static/side.png",
+        "imgSide": "/static/thumb.png",
         "imgTop": "/static/top.png",
         "imgFront": "/static/front.png"
     },

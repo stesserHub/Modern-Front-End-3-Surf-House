@@ -40,7 +40,7 @@ import axios from "axios";
 
 export default {
     name: 'HomePage',
-    // Array of product date retrieved on page creation with getProducts method
+    // array of product date retrieved on page creation with getProducts method
     data: function() {
         return {
             products: []
@@ -51,7 +51,7 @@ export default {
         this.getProducts();
     },
     methods: {
-        // Add a method for retrieving product data using axios
+        // method for retrieving product data using axios
         getProducts: function() {
             axios
             .get("/static/products.json")
