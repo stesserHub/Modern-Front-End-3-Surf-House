@@ -4,10 +4,12 @@ import HomePage from '@/components/HomePage';
 import ProductPage from '@/components/ProductPage';
 import ContactPage from '@/components/ContactPage';
 import VeeValidate from 'vee-validate';
+import {Tabs, Tab} from 'vue-tabs-component';
 
 Vue.use(VeeValidate);
 Vue.use(Router);
-
+Vue.component('tabs', Tabs);
+Vue.component('tab', Tab);
 
 
 export default new Router({
