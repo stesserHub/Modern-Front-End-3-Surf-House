@@ -3,7 +3,7 @@
     <header-comp></header-comp>
     <menu-comp></menu-comp>
     <tag-comp></tag-comp>
-    <img src="./assets/logo.png">
+    
     
     <router-view/>
 
