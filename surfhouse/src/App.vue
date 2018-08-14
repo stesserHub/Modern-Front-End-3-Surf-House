@@ -4,7 +4,6 @@
     <menu-comp></menu-comp>
     <tag-comp></tag-comp>
     
-    
     <router-view/>
 
     <footer-comp></footer-comp>
