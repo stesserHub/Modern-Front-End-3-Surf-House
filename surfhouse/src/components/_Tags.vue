@@ -1,0 +1,21 @@
+<template>
+    <section>
+        <ul>
+            <li>
+                Kitesurf
+            </li>
+            <li>
+                Kitesurf
+            </li>
+            <li>
+                Kitesurf
+            </li>
+            <li>
+                Kitesurf
+            </li>
+            <li>
+                Kitesurf
+            </li>
+        </ul>
+    </section>
+</template>
