@@ -6,12 +6,12 @@
         <p>
             If you have questions about your order or need any general information our customer service team will be happy to assist you    
         </p>
-        <form action="">
+        <form action="post">
             <label for="customername">
                 full name*
             </label>
             <br>
-            <input type="text" name="customername">
+            <input type="text" name="customername" >
             <br>
             <label for="customeremail">
                 email*
