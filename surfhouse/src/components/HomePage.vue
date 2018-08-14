@@ -6,7 +6,7 @@
         <!-- render 6 products from the product array -->
         <div class="productGallery">
             <div class="product" v-for="product in products.slice(0, 6)" :key="product.id">
-                <router-link :to="/productpage/ + product.id">
+                <router-link :to="/product/ + product.id">
                     <div style="border:2px solid pink;">
                         <div class="label" v-if="product.label != null">
                             {{product.label}}
