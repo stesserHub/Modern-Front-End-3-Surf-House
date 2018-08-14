@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },
+    {
+        "id": 2,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },    {
+        "id": 3,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },    {
+        "id": 4,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },    {
+        "id": 5,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },    {
+        "id": 6,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },    {
+        "id": 7,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    },    {
+        "id": 8,
+        "type": "running shoe",
+        "title": "gel-fujitrabuco 5 g-tx",
+        "price": 89.99,
+        "discount": 15.00,
+        "rating": 3,
+        "description": "It's very nice!",
+        "imgSide": "/static/side.png",
+        "imgTop": "/static/top.png",
+        "imgFront": "/static/front.png"
+    }
+]
