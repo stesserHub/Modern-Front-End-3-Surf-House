@@ -70,44 +70,19 @@
             </ul>
         </div>
 
-        <h4>
-            product description
-        </h4>
-        <p>
-            {{product.description}}
-        </p>
-
-        <h4>
-            additional information
-        </h4>
-        <p>
-            {{product.information}}
-        </p>
-
-        <h4>
-            reviews
-        </h4>
-        <p>
-            {{product.review}}
-        </p>
-
-        <h4>
-            product tags
-        </h4>
-        <p>
-            {{product.tags}}
-        </p>
-
         <div>
             <tabs>
-                <tab name="First tab">
-                    First tab content
+                <tab name="product description">
+                    {{product.description}}
                 </tab>
-                <tab name="Second tab">
-                    Second tab content
+                <tab name="additional information">
+                    {{product.information}}
                 </tab>
-                <tab name="Third tab">
-                    Third tab content
+                <tab name="reviews">
+                    {{product.review}}
+                </tab>
+                <tab name="product tags">
+                    {{product.tags}}
                 </tab>
             </tabs>
         </div>
