@@ -1,5 +1,9 @@
 @import "variables";
 
+* {
+    font-family: sans-serif;
+}
+
 // change me to $background
 body {
     background-color:lightgrey;
@@ -9,8 +13,8 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    color:lime;
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
 }
 
 .label {
@@ -37,6 +41,10 @@ label {
     color: $toned;
     font-family: sans-serif;
     font-weight: bolder;
+
+}
+.quantity {
+    text-transform: capitalize;
 }
 
 header {
