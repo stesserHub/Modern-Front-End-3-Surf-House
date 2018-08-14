@@ -1,21 +1,23 @@
 <template>
     <section>
-        <ul>
-            <li>
-                Kitesurf
-            </li>
-            <li>
-                Kitesurf
-            </li>
-            <li>
-                Kitesurf
-            </li>
-            <li>
-                Kitesurf
-            </li>
-            <li>
-                Kitesurf
-            </li>
-        </ul>
+        <div id="tags">
+            <ul>
+                <li>
+                    Kitesurf
+                </li>
+                <li>
+                    Kitesurf
+                </li>
+                <li>
+                    Kitesurf
+                </li>
+                <li>
+                    Kitesurf
+                </li>
+                <li>
+                    Kitesurf
+                </li>
+            </ul>
+        </div>
     </section>
 </template>

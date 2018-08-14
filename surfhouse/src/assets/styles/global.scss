@@ -1,5 +1,9 @@
 @import "variables";
 
+body {
+    background-color: salmon;
+}
+
 a {
     text-decoration: none;
 }
@@ -17,4 +21,20 @@ h1 {
 .altprice {
     text-decoration: line-through;
     color: $cta1;
+}
+
+#menu {
+    background-color: $primary;
+}
+
+#tags {
+    background-color: $plain;
+}
+
+header {
+    background-color: $primary;
+}
+
+footer {
+    background-color:  $toned;
 }
