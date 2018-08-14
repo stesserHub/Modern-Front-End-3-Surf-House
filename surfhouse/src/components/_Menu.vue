@@ -1,0 +1,15 @@
+<template>
+    <section>
+        <ul>
+            <li>
+                Home
+            </li>
+            <li>
+                Product
+            </li>
+            <li>
+                Contact
+            </li>
+        </ul>
+    </section>
+</template>
