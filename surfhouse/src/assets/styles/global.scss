@@ -1,7 +1,8 @@
 @import "variables";
 
+// change me to $background
 body {
-    background-color: salmon;
+    background-color:lightgrey;
 }
 
 a {
@@ -29,6 +30,13 @@ h1 {
 
 #tags {
     background-color: $plain;
+}
+
+label {
+    text-transform: uppercase;
+    color: $toned;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 
 header {
