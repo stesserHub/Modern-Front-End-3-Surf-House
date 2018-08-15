@@ -132,21 +132,35 @@
                     <h5>
                         newsletter
                     </h5>
+                    <p>
+                        join thoausands of other people subscripe to our news
+                    </p>
+                    <div class="emailsignup">
+                        <form action="post">
+                            <input type="text" placeholder="     insert email">
+                            <input type="submit">
+                        </form>
+                    </div>
                 </div>
                 <div class="footer-child">
                     <h5>
                         about us
                     </h5>
                     <p>
-                        Describtion
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <p>
-                        Phone: 1-999-342-9876
+                        Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-999-342-9876
                     </p>
                     <p>
-                        e-mail: info@surfhouse.com
+                        e-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="spanemail">info@surfhouse.com</span>
                     </p>
                 </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    © 2017 SURFHOUSE. All rigths reserved - Designed by theuncreativelab.com
+                </p>
             </div>
         </footer>
     </section>

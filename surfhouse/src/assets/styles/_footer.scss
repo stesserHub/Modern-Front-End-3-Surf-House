@@ -3,9 +3,9 @@
 footer {
 
 
-    padding-left: 8vw;
+
     padding-top: 80px;
-    padding-right: 8vw;
+
 
     // min-height: 355px;
 
@@ -16,6 +16,9 @@ footer {
 
     .footer-parent {
 
+        padding-left: 8vw;
+        padding-right: 8vw;
+
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -25,8 +28,10 @@ footer {
             align-self: flex-start;
 
             display: block;
+
             width: 20%;
             min-width: 235px;
+
             background-color: rgba(35, 111, 252, 0.1);
             border: 3px solid rgba(255, 0, 0, 0.3);
 
@@ -36,12 +41,24 @@ footer {
 
             p {
 
-                font-size: 16px;
+                padding-top:3px;
+                padding-bottom:3px;
+
+                font-size: 14px;
                 color:$plain;
 
             }
             
+            .spanemail {
+                color:$secondary;
+            }
+
+            
+
             &.list {
+
+                width: 15%;
+            min-width: 200px;
 
                 ul {
                     margin-top:33px;
@@ -57,10 +74,51 @@ footer {
                     }
                 }                
             }
+
+            .emailsignup {
+    
+                form {
+                    input {
+                        border: none;
+        
+                        &[type=text] {
+                            width: 65%;
+                            height: 35px;
+                            background-color: $secondary;
+                            font-size: 12px;
+                            color: $formtext;
+                            text-transform: uppercase;
+                        }
+        
+                        &[type=submit] {
+                            width: 30%;
+                            height: 35px;
+                            color: $plain;
+                            background-color: $btn1;
+                        }
+                        
+                    }
+                }
+            }
+
             //This child is... different
             &:last-child {
                 padding-top:1px;
             }
+        }
+    }
+
+    .copyright {
+        padding-left: 8vw;
+        padding-top: 20px;
+        padding-right: 8vw;
+        padding-bottom: 20px;
+
+        background-color: $darktoned;
+
+        p {
+            font-size: 14px;
+            color:$offwhite;
         }
     }
 }

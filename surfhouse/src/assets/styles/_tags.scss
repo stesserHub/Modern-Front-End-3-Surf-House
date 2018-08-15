@@ -1,72 +1,71 @@
 @import "variables";
 
 #tags {
-
-
     width: 270px;
-
-    
-    padding-left: 35px;
-    padding-top: 35px;
-    padding-right: 35px;
-    padding-bottom: 20px;
-
-    background-color: $plain;
-
-
-    .tagstitle {
+    .kek {
         
-        margin-bottom: 20px;
+        padding-left: 35px;
+        padding-top: 35px;
+        padding-right: 35px;
+        padding-bottom: 20px;
 
-        font-size: 16px;
-        font-weight: 100;
+        background-color: $plain;
 
-        
-        color: $btn1;
 
-        h4 {
-            text-transform: capitalize;
-        }
-    }
+        .tagstitle {
+            
+            margin-bottom: 20px;
 
-    ul {
-        a {
+            font-size: 16px;
+            font-weight: 100;
 
-            text-transform: capitalize;
-            li {
-                display: inline-block;
+            
+            color: $btn1;
 
-                margin-right: 3px;
-                margin-bottom: 7px;
-
-                padding-left: 13px;
-                padding-top: 8px;
-                padding-right: 13px;
-                padding-bottom: 8px;
-                
-
-                background-color: $offwhite;
-
-                
+            h4 {
+                text-transform: capitalize;
             }
+        }
 
-            &:hover {
-                color: $btn1;
+        ul {
+            a {
 
+                text-transform: capitalize;
                 li {
-                    background-color: $cta2;
-                }                
+                    display: inline-block;
+
+                    margin-right: 3px;
+                    margin-bottom: 7px;
+
+                    padding-left: 13px;
+                    padding-top: 8px;
+                    padding-right: 13px;
+                    padding-bottom: 8px;
+                    
+
+                    background-color: $offwhite;
+
+                    
+                }
+
+                &:hover {
+                    color: $btn1;
+
+                    li {
+                        background-color: $cta2;
+                    }                
+                }
             }
         }
-    }
 
-    .viewmore {
+        .viewmore {
 
-        text-transform: lowercase;
-        font-size: 14px;
-        font-weight: bolder;
-        color: $btn1;
+            text-transform: lowercase;
+            font-size: 14px;
+            font-weight: bolder;
+            color: $btn1;
 
+        }
     }
 }
 
