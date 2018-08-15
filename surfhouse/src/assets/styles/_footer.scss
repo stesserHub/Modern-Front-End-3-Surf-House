@@ -29,11 +29,14 @@ footer {
 
             display: block;
 
+            padding-right:20px;
+            padding-bottom: 20px;
+
             width: 20%;
             min-width: 235px;
 
-            background-color: rgba(35, 111, 252, 0.1);
-            border: 3px solid rgba(255, 0, 0, 0.3);
+            // background-color: rgba(35, 111, 252, 0.1);
+            // border: 3px solid rgba(255, 0, 0, 0.3);
 
             h5 {
                 color:$plain;
@@ -52,6 +55,26 @@ footer {
             .spanemail {
                 color:$secondary;
             }
+
+            .kek2 {
+                padding-left:10px;
+            }
+
+            .payment {
+                ul {
+                    li {
+                        float: left;
+                        margin-right:10px;
+                        .paymenticon {
+                            width:38px;
+                            height: auto;
+                        }
+                    }
+
+                }
+
+            }
+
 
             
 
@@ -77,6 +100,9 @@ footer {
 
             .emailsignup {
     
+                margin-top:15px;
+                margin-bottom:45px;
+
                 form {
                     input {
                         border: none;
@@ -109,6 +135,7 @@ footer {
     }
 
     .copyright {
+        margin-top:45px;
         padding-left: 8vw;
         padding-top: 20px;
         padding-right: 8vw;

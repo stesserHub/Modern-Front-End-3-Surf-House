@@ -2,7 +2,7 @@
     <section>
         <header>
             <a href="/">
-                <img id="logo" src="../assets/SurfhouseLogo.png"/>
+                <img id="logo" src="../../static/SurfhouseLogo.png"/>
             </a>
             <div id="cart">
                 <div class="cartlink">

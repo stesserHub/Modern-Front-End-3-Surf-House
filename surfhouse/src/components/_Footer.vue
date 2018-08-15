@@ -129,17 +129,42 @@
                     </ul>                    
                 </div>
                 <div class="footer-child">
-                    <h5>
-                        newsletter
-                    </h5>
-                    <p>
-                        join thoausands of other people subscripe to our news
-                    </p>
-                    <div class="emailsignup">
-                        <form action="post">
-                            <input type="text" placeholder="     insert email">
-                            <input type="submit">
-                        </form>
+                    <div class="kek2">
+                        <h5>
+                            newsletter
+                        </h5>
+                        <p>
+                            join thoausands of other people subscripe to our news
+                        </p>
+                        <div class="emailsignup">
+                            <form action="post">
+                                <input type="text" placeholder="     insert email">
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="payment">
+                        <ul>
+                            <li>
+                                <img class="paymenticon" src="../../static/visa.png" alt="">
+                            </li>
+                            <li>
+                                <img class="paymenticon" src="../../static/visa.png" alt="">
+                            </li>
+                            <li>
+                                <img class="paymenticon" src="../../static/visa.png" alt="">
+                            </li>
+                            <li>
+                                <img class="paymenticon" src="../../static/visa.png" alt="">
+                            </li>
+                            <li>
+                                <img class="paymenticon" src="../../static/visa.png" alt="">
+                            </li>
+                            <li>
+                                <img class="paymenticon" src="../../static/visa.png" alt="">
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="footer-child">
