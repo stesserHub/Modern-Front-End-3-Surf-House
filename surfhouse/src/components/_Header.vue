@@ -1,10 +1,9 @@
 <template>
     <section>
         <header>
-            <h1>
-                This is the header test
-            </h1>
-            <img src="../assets/SurfhouseLogo.png">
+            <a href="/">
+                <img id="logo" src="../assets/SurfhouseLogo.png"/>
+            </a>
             <div id="cart">
                 <div class="cartlink">
                     <ul>
@@ -21,15 +20,24 @@
                     </ul>
                 </div>
                 <div class="cartcontent">
-                    <svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
-                        <use href="#carticon" x="0" width="20px" heigth="20px" />
-                    </svg>
-                    <p class="totalcart">
-                        €. 1234.56
-                    </p>
-                    <p class="itemcount">
-                        99 items
-                    </p>
+                    <div class="svgsizing">
+                        <svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
+                            <use href="#carticon" x="0" />
+                        </svg>
+                    </div>
+
+                    <div class="cartdata">
+                        <p class="carttotal">
+                            €. 1234.56
+                        </p>
+                        <p class="cartcount">
+                            99 items
+                        </p>
+                    </div>
+                    
+                    <br>
+                    <br>
+
                     <ul>
                         <li>
                             <a href="#">

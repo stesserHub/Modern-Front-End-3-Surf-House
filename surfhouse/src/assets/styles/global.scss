@@ -12,7 +12,7 @@
 body {
     background-color:lightgrey;
 }
-    
+
 .svg {
     display: none;
 }
@@ -56,8 +56,20 @@ label {
 }
 
 header {
+    height: 150px;
+
     margin-bottom: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+
+
     background-color: $primary;
+
+    #logo {
+        padding-top: 10px;
+    }
+
 }
 
 footer {
@@ -65,11 +77,12 @@ footer {
 }
 
 #cart {
+    float: right;
 
     width: 270px;
     height: 150px;
 
-    background-color: lime;
+    background-color: $cart;
 
     a {
         text-transform: uppercase;
@@ -89,7 +102,7 @@ footer {
                 float:left;
 
                 a {
-                    color: $cta1;
+                    color: $cart;
                 }
             }
             li:last-child {
@@ -99,14 +112,57 @@ footer {
     }
 
     .cartcontent {
-        background-color: aqua;
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-right: 25px;
+
+        
+
+        .svgsizing {
+            float: left;
+            width: 42px;
+            height: 35px;
+        }
+
+        .cartdata {
+            float: left;
+
+            .carttotal {
+                font-size: 20px;
+                color: $plain;
+            }
+            .cartcount {
+                font-size: 12px;
+                color: $cta2;
+            }
+        }
+
+        
+
+        ul {
+            margin-top:25px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            font-weight: 200;
+            li {
+                a {
+                    float: left;
+                    color: $plain;
+                }
+            }
+        }
+
+
     }
 
     .cartsearch {
-        background-color: yellow;
+        background-color: lime;
     }
 }
 
+
+
 #carticon {
+            
     fill:$cta2;
 }
