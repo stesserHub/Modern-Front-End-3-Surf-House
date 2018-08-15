@@ -1,5 +1,51 @@
 @import "variables";
 
 footer {
+
+
+    padding-left: 8vw;
+    padding-right: 8vw;
+
+    height: 355px;
+
     background-color:  $toned;
+
+
+
+
+    .footer-parent {
+
+        display: flex;
+        justify-content: flex-start;
+
+        .footer-child {
+
+            align-self: flex-start;
+
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: cornflowerblue;
+            border: 3px solid red;
+
+            h5 {
+                color:$plain;
+            }
+            
+            &.list {
+
+                ul {
+                    a {
+                        color:$plain;
+                        li {
+
+                        }
+                        &:hover {
+                            color:$offwhite;
+                        }
+                    }
+                }                
+            }
+        }
+    }
 }
