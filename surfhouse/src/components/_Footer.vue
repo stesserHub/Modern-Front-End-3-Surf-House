@@ -175,10 +175,10 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <p>
-                        Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-999-342-9876
+                        Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:1-999-342-9876" style="color:inherit;" >1-999-342-9876</a>
                     </p>
                     <p>
-                        e-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="spanemail">info@surfhouse.com</span>
+                        e-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:info@surfhouse.com?Subject=I%20want%20to%20ride" target="_top" class="spanemail">info@surfhouse.com</a>
                     </p>
                 </div>
             </div>
