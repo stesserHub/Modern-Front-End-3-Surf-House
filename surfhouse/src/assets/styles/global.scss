@@ -31,15 +31,33 @@ h1,h2,h3,h4,h5 {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
 #carticon {
             
     fill:$cta2;
+}
+
+#content {
+    padding-left:6vw;
+    padding-right: 6vw;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    article {
+
+        width: 70%;
+
+        padding-left: 30px;
+
+        background-color: lawngreen;
+
+
+    }
+
+    &:nth-child(n) {
+
+        align-self: flex-start;
+
+    }
 }
