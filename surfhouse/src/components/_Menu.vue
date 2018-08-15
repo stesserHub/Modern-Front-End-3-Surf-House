@@ -12,17 +12,19 @@
                         home
                     </li>
                 </a>
-                                <a href="#">
+                <a href="#">
                     <li>
                         home
                     </li>
                 </a>
-                                <a href="#">
+                <a href="#">
                     <li>
                         home
                     </li>
                 </a>
             </ul>
+
         </div>        
     </section>
 </template>
+
