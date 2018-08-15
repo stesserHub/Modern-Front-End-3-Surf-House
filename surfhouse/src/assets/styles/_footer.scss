@@ -4,9 +4,10 @@ footer {
 
 
     padding-left: 8vw;
+    padding-top: 80px;
     padding-right: 8vw;
 
-    height: 355px;
+    // min-height: 355px;
 
     background-color:  $toned;
 
@@ -17,34 +18,48 @@ footer {
 
         display: flex;
         justify-content: flex-start;
+        flex-wrap: wrap;
 
         .footer-child {
 
             align-self: flex-start;
 
             display: block;
-            width: 200px;
-            height: 200px;
-            background-color: cornflowerblue;
-            border: 3px solid red;
+            width: 20%;
+            min-width: 235px;
+            background-color: rgba(35, 111, 252, 0.1);
+            border: 3px solid rgba(255, 0, 0, 0.3);
 
             h5 {
                 color:$plain;
+            }
+
+            p {
+
+                font-size: 16px;
+                color:$plain;
+
             }
             
             &.list {
 
                 ul {
+                    margin-top:33px;
                     a {
                         color:$plain;
                         li {
-
+                            margin-bottom: 2px;
+                            font-size: 14px;
                         }
                         &:hover {
                             color:$offwhite;
                         }
                     }
                 }                
+            }
+            //This child is... different
+            &:last-child {
+                padding-top:1px;
             }
         }
     }

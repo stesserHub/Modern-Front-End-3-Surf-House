@@ -129,10 +129,23 @@
                     </ul>                    
                 </div>
                 <div class="footer-child">
-                    newsletter
+                    <h5>
+                        newsletter
+                    </h5>
                 </div>
                 <div class="footer-child">
-                    about us
+                    <h5>
+                        about us
+                    </h5>
+                    <p>
+                        Describtion
+                    </p>
+                    <p>
+                        Phone: 1-999-342-9876
+                    </p>
+                    <p>
+                        e-mail: info@surfhouse.com
+                    </p>
                 </div>
             </div>
         </footer>
