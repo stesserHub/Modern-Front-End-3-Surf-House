@@ -1,11 +1,10 @@
+@import "reset";
 @import "tabs";
 @import "variables";
 
 
 
-* {
-    font-family: sans-serif;
-}
+
 
 // change me to $background
 body {
@@ -51,9 +50,48 @@ label {
 }
 
 header {
+    margin-bottom: 40px;
     background-color: $primary;
 }
 
 footer {
     background-color:  $toned;
+}
+
+#cart {
+
+    width: 270px;
+    height: 150px;
+
+    background-color: lime;
+
+    a {
+        text-transform: uppercase;
+    }
+
+    .cartlink {
+        height: 30px;
+        background-color: $background;
+        
+
+        ul {
+            padding: 5px;
+            li {
+                margin-left: 30px;
+                margin-right: 5px;
+                float:left;
+                a {
+                    color: $cta1;
+                }
+            }
+        }
+    }
+
+    .cartcontent {
+        background-color: aqua;
+    }
+
+    .cartsearch {
+        background-color: yellow;
+    }
 }
