@@ -1,0 +1,16 @@
+@import "variables";
+
+#brand-parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-left:6vw;
+    padding-right:6vw;
+    padding-bottom: 45px;
+
+
+    .brand-child {
+        align-self: flex-start;
+    }
+}
