@@ -156,7 +156,29 @@ footer {
     }
 
     .cartsearch {
-        background-color: lime;
+
+        form {
+            input {
+                border: none;
+
+                &[type=text] {
+                    width: 230px;
+                    height: 35px;
+                    background-color: $background;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+
+                &[type=submit] {
+                    width: 35px;
+                    height: 35px;
+                    color: $plain;
+                    background-color: $toned;
+                }
+                
+            }
+        }
+
     }
 }
 
