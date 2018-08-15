@@ -26,14 +26,27 @@
                             </p>                            
                         </div>                    
                         <img v-bind:src="product.img1"/>
-                        <p>
-                            {{product.title}}
+                        <p class="title">
+                            <b>
+                                <i>
+                                    {{product.title}}
+                                </i>  
+                            </b>                         
                         </p>                
-                        <p>
-                            €. {{product.price}}
+                        <p class="price">
+                            <b>
+                                <i>
+                                    €. {{product.price}}
+                                </i> 
+                            </b>                           
                         </p>
-                        <p class="altprice" v-if="product.altprice != null">
-                            €. {{product.altprice}}
+                        <br><br>
+                        <p class="altprice price" v-if="product.altprice != null">
+                            <b>
+                                <i>
+                                    €. {{product.altprice}}
+                                </i>  
+                            </b>                          
                         </p>
                     </div>
                 </router-link>

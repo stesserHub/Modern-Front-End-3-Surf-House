@@ -2,10 +2,7 @@
 
 
 
-.altprice {
-    text-decoration: line-through;
-    color: $cta1;
-}
+
 
 label {
     text-transform: uppercase;
@@ -57,15 +54,29 @@ label {
 
         text-transform: uppercase;
 
+        img {
+            width: 100%;
+        }
+
+        .title {
+            font-size:16px;
+        }
+
+        .price {
+            float:right;
+            font-size: 22px;
+        }
+
+        .altprice {
+            text-decoration: line-through;
+            color: $cta1;
+            font-size:16px;
+        }        
+
         .label {
             position:absolute;
             top:0px;
             right:0;
-            // display: block;
-
-            float:right;
-
-            
 
             width: 0;
             height: 0; 
@@ -76,11 +87,13 @@ label {
                 position:absolute;
                 top:-40px;
                 right:5px;
-
                 font-size: 10px;
-
                 color: $plain;
             }
+        }
+
+        a {
+            color: inherit;
         }
 
     }
