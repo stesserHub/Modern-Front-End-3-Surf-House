@@ -1,10 +1,6 @@
 @import "variables";
 
-.label {
-    display: block;
-    background-color: $cta1;
-    color: $cta1;
-}
+
 
 .altprice {
     text-decoration: line-through;
@@ -21,4 +17,71 @@ label {
 
 .quantity {
     text-transform: capitalize;
+}
+
+.productgallery {
+    // background-color: lawngreen;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .gallery-top {
+
+        width: 100%;
+
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+
+        color: $gallery;
+        
+        .gallerynav {
+            float: right;
+        }
+    }
+
+    .product {
+
+        position:relative;
+
+        width: 250px;
+        height: 320px;
+        align-self: flex-start;
+
+        margin-right: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+
+        background-color: $plain;
+
+        text-transform: uppercase;
+
+        .label {
+            position:absolute;
+            top:0px;
+            right:0;
+            // display: block;
+
+            float:right;
+
+            
+
+            width: 0;
+            height: 0; 
+            border-top: 50px solid $cta1;
+            border-left: 50px solid transparent;
+            
+            p {
+                position:absolute;
+                top:-40px;
+                right:5px;
+
+                font-size: 10px;
+
+                color: $plain;
+            }
+        }
+
+    }
 }

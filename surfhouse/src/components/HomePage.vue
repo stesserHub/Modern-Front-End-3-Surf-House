@@ -21,10 +21,12 @@
                 <router-link :to="/product/ + product.id">
                     <div>
                         <div class="label" v-if="product.label != null">
-                            {{product.label}}
+                            <p>
+                                {{product.label}}
+                            </p>                            
                         </div>                    
                         <img v-bind:src="product.img1"/>
-                        <p style="text-transform: uppercase;">
+                        <p>
                             {{product.title}}
                         </p>                
                         <p>
