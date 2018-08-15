@@ -19,7 +19,7 @@
 
             <div class="product" v-for="product in products.slice(0, 6)" :key="product.id">
                 <router-link :to="/product/ + product.id">
-                    <div style="border:2px solid pink;">
+                    <div>
                         <div class="label" v-if="product.label != null">
                             {{product.label}}
                         </div>                    
