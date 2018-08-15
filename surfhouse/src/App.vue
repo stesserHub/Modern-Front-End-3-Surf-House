@@ -7,6 +7,7 @@
     <router-view/>
 
     <footer-comp></footer-comp>
+    <svg-data></svg-data>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import _Header from '@/components/_Header'
 import _Menu from '@/components/_Menu'
 import _Tags from '@/components/_Tags'
 import _Footer from '@/components/_Footer'
+import _SVG from '@/components/_SVG'
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     'header-comp': _Header,
     'menu-comp': _Menu,
     'tag-comp': _Tags,
-    'footer-comp': _Footer
+    'footer-comp': _Footer,
+    'svg-data': _SVG
   }
 }
 </script>

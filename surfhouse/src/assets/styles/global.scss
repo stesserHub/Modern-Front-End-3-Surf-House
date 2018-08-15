@@ -12,6 +12,10 @@
 body {
     background-color:lightgrey;
 }
+    
+.svg {
+    display: none;
+}
 
 a {
     text-decoration: none;
@@ -101,4 +105,8 @@ footer {
     .cartsearch {
         background-color: yellow;
     }
+}
+
+#carticon {
+    fill:$cta2;
 }

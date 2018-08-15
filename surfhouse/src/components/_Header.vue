@@ -21,7 +21,9 @@
                     </ul>
                 </div>
                 <div class="cartcontent">
-                    <img src="#" alt=""/>
+                    <svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
+                        <use href="#carticon" x="0" width="20px" heigth="20px" />
+                    </svg>
                     <p class="totalcart">
                         €. 1234.56
                     </p>
