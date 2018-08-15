@@ -1,16 +1,27 @@
 <template>
     <section>
         <div id="menu">
+            <div class="menutitle">
+                <h4>
+                    menu
+                </h4>
+            </div>
             <ul>
-                <li>
-                    Home
-                </li>
-                <li>
-                    Product
-                </li>
-                <li>
-                    Contact
-                </li>
+                <a href="#">
+                    <li>
+                        home
+                    </li>
+                </a>
+                                <a href="#">
+                    <li>
+                        home
+                    </li>
+                </a>
+                                <a href="#">
+                    <li>
+                        home
+                    </li>
+                </a>
             </ul>
         </div>        
     </section>
