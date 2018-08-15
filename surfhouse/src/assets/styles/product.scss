@@ -1,0 +1,24 @@
+@import "variables";
+
+.label {
+    display: block;
+    background-color: $cta1;
+    color: $cta1;
+}
+
+.altprice {
+    text-decoration: line-through;
+    color: $cta1;
+}
+
+label {
+    text-transform: uppercase;
+    color: $toned;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+.quantity {
+    text-transform: capitalize;
+}

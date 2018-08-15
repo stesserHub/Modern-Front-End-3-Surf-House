@@ -2,6 +2,11 @@
 
 @import "fonts";
 @import "variables";
+@import "_header";
+@import "_menu";
+@import "_tags";
+@import "_footer";
+@import "product";
 @import "tabs";
 
 
@@ -25,162 +30,11 @@ h1,h2,h3,h4,h5 {
     text-transform: uppercase;
 }
 
-.label {
-    display: block;
-    background-color: $cta1;
-    color: $cta1;
-}
-
-.altprice {
-    text-decoration: line-through;
-    color: $cta1;
-}
-
-#menu {
-    background-color: $primary;
-}
-
-#tags {
-    background-color: $plain;
-}
-
-label {
-    text-transform: uppercase;
-    color: $toned;
-    font-family: sans-serif;
-    font-weight: bolder;
-
-}
-.quantity {
-    text-transform: capitalize;
-}
-
-header {
-    height: 150px;
-
-    margin-bottom: 40px;
-    padding-left: 10vw;
-    padding-right: 10vw;
 
 
 
-    background-color: $primary;
-
-    #logo {
-        padding-top: 10px;
-    }
-
-}
-
-footer {
-    background-color:  $toned;
-}
-
-#cart {
-    float: right;
-
-    width: 270px;
-    height: 150px;
-
-    background-color: $cart;
-
-    a {
-        text-transform: uppercase;
-    }
-
-    .cartlink {
-        height: 30px;
-        background-color: $background;
-        font-size: 14px;
-        font-weight: 500;
-
-        ul {
-            padding: 5px;
-            li {
-                margin-left: 30px;
-                margin-right: 5px;
-                float:left;
-
-                a {
-                    color: $cart;
-                }
-            }
-            li:last-child {
-                margin-left: 65px;
-            }
-        }
-    }
-
-    .cartcontent {
-        padding-left: 25px;
-        padding-top: 15px;
-        padding-right: 25px;
-
-        
-
-        .svgsizing {
-            float: left;
-            width: 42px;
-            height: 35px;
-        }
-
-        .cartdata {
-            float: left;
-
-            .carttotal {
-                font-size: 20px;
-                color: $plain;
-            }
-            .cartcount {
-                font-size: 12px;
-                color: $cta2;
-            }
-        }
-
-        
-
-        ul {
-            margin-top:25px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            font-weight: 200;
-            li {
-                a {
-                    float: left;
-                    color: $plain;
-                }
-            }
-        }
 
 
-    }
-
-    .cartsearch {
-
-        form {
-            input {
-                border: none;
-
-                &[type=text] {
-                    width: 230px;
-                    height: 35px;
-                    background-color: $background;
-                    font-size: 12px;
-                    text-transform: uppercase;
-                }
-
-                &[type=submit] {
-                    width: 35px;
-                    height: 35px;
-                    color: $plain;
-                    background-color: $toned;
-                }
-                
-            }
-        }
-
-    }
-}
 
 
 
