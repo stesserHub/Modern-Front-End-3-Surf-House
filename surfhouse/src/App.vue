@@ -28,15 +28,15 @@ import _Footer from '@/components/_Footer'
 import _SVG from '@/components/_SVG'
 
 export default {
-name: 'App',
-components: {
-  'header-comp': _Header,
-  'menu-comp': _Menu,
-  'tag-comp': _Tags,
-  'brand-comp': _Brands,
-  'footer-comp': _Footer,
-  'svg-data': _SVG
-}
+  name: 'App',
+  components: {
+    'header-comp': _Header,
+    'menu-comp': _Menu,
+    'tag-comp': _Tags,
+    'brand-comp': _Brands,
+    'footer-comp': _Footer,
+    'svg-data': _SVG
+  }
 }
 </script>
 

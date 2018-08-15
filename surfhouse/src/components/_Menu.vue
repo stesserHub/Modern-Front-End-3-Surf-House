@@ -6,24 +6,26 @@
                     menu
                 </h4>
             </div>
-            <ul>
-                <a href="#">
-                    <li>
-                        home
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        home
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        home
-                    </li>
-                </a>
-            </ul>
-
+            <!-- there are smarter ways of making navigations -->
+            <nav>            
+                <ul>
+                    <a href="#/">
+                        <li>
+                            home
+                        </li>
+                    </a>
+                    <a href="#/">
+                        <li>
+                            home
+                        </li>
+                    </a>
+                    <a href="#/contact/">
+                        <li>
+                            home
+                        </li>
+                    </a>
+                </ul>
+            </nav>
         </div>        
     </section>
 </template>

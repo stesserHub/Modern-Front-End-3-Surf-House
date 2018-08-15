@@ -10,10 +10,6 @@
 @import "product";
 @import "tabs";
 
-
-
-
-
 // change me to $background
 body {
     background-color:lightgrey;
@@ -50,14 +46,37 @@ h1,h2,h3,h4,h5 {
 
         padding-left: 30px;
 
-        background-color: lawngreen;
-
-
+        
     }
 
     &:nth-child(n) {
 
         align-self: flex-start;
-
     }
+}
+
+
+.placeholder {
+    margin-bottom: 75px;
+    img {
+        width: 100%;
+    }
+}
+
+.productgallery {
+    background-color: lawngreen;
+
+    .gallery-top {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+
+        color: $gallery;
+        
+        .gallerynav {
+            float: right;
+        }
+    }
+
+    
 }
