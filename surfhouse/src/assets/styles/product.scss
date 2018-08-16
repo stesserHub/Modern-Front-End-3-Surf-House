@@ -55,15 +55,19 @@ label {
 
         img {
             width: 100%;
+            margin-bottom: 25px;
         }
 
         .title {
-            font-size:16px;
+            font-size:14px;
+            line-height: 0;
+            padding-left: 20px;
         }
 
         .price {
-            float:right;
-            font-size: 22px;
+            font-size: 18px;
+            text-align: right;
+            padding-right: 10px;
         }
 
         .altprice {

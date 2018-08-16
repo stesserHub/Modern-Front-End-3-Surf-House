@@ -40,7 +40,6 @@
                                 </i> 
                             </b>                           
                         </p>
-                        <br><br>
                         <p class="altprice price" v-if="product.altprice != null">
                             <b>
                                 <i>
