@@ -27,6 +27,10 @@
     font-weight: 600;
     margin-right: 0;
     list-style: none;
+
+    &:first-child {
+      margin-left: 20px;
+    }
   }
   
   .tabs-component-tab:not(:last-child) {
@@ -49,10 +53,9 @@
   
   @media (min-width: 700px) {
     .tabs-component-tab {
-      background-color: #fff;
-      border: solid 1px #ddd;
+      border: none;
       border-radius: 3px 3px 0 0;
-      margin-right: .5em;
+      margin-right: 0;
       transform: translateY(2px);
       transition: transform .3s ease;
     }
@@ -70,6 +73,7 @@
     display: flex;
     padding: .75em 1em;
     text-decoration: none;
+    text-transform: uppercase;
   }
   
   .tabs-component-panels {
@@ -79,7 +83,6 @@
   @media (min-width: 700px) {
     .tabs-component-panels {
       border-top-left-radius: 0;
-      background-color: #fff;
       border: solid 1px #ddd;
       border-radius: 0 6px 6px 6px;
       box-shadow: 0 0 10px rgba(0, 0, 0, .05);
