@@ -32,69 +32,80 @@
             </div>
 
             <div class="product-child">
-                <h1>
-                    {{product.title}}
-                </h1>
 
-                <b>
-                    €. {{product.price}}
-                </b>
-                <br>
-                <b class="altprice" v-if="product.altprice != null">
-                    €. {{product.altprice}}
-                </b>
+                <div class="product-description">
+                    <h1 id="title">
+                        {{product.title}}
+                    </h1>
 
-                <h3>
-                    quick overview
-                </h3>
-                <p>
-                    {{product.overview}}
-                </p>
+                    <p id="price">
+                        <i>
+                            <b >
+                                €. {{product.price}}
+                            </b>
+                        
+                            <b class="altprice" v-if="product.altprice != null">
+                                €. {{product.altprice}}
+                            </b>
+                        </i>
+                    </p>
 
-                <h3>
-                    size
-                </h3>
-                <ul>
-                    <li>
-                        {{product.size}}
-                    </li>
-                </ul>
+                    <span class="hr">
+                    </span>
+                    
 
-                <h3>
-                    length
-                </h3>
-                <ul>
-                    <li>
-                        {{product.length}}
-                    </li>
-                </ul>
+                    <h3>
+                        quick overview
+                    </h3>
+                    <p>
+                        {{product.overview}}
+                    </p>
 
-                <div class="cartinteract">
-                    <form action="post">
-                        <label for="quantity" class="quantity">
-                            quantity:
-                        </label>
-                        <br>
-                        <input type="number" name="quantity" min="1" value="1">
-                        <input type="submit" value="add to cart">
-                    </form>
+                    <h3>
+                        size
+                    </h3>
                     <ul>
                         <li>
-                            <button>
-                                + Add to Wishlist
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                + Add to Compare
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                + Email to a Friend
-                            </button>
+                            {{product.size}}
                         </li>
                     </ul>
+
+                    <h3>
+                        length
+                    </h3>
+                    <ul>
+                        <li>
+                            {{product.length}}
+                        </li>
+                    </ul>
+
+                    <div class="cartinteract">
+                        <form action="post">
+                            <label for="quantity" class="quantity">
+                                quantity:
+                            </label>
+                            <br>
+                            <input type="number" name="quantity" min="1" value="1">
+                            <input type="submit" value="add to cart">
+                        </form>
+                        <ul>
+                            <li>
+                                <button>
+                                    + Add to Wishlist
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    + Add to Compare
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    + Email to a Friend
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
