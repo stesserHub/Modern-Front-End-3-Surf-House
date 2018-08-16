@@ -54,30 +54,39 @@
                     </span>
                     
 
-                    <h3>
+                    <h3 class="subtitle">
                         quick overview
                     </h3>
                     <p>
                         {{product.overview}}
                     </p>
 
-                    <h3>
+                    <span class="hr">
+                    </span>
+
+                    <h3 class="subtitle">
                         size
                     </h3>
-                    <ul>
+                    <ul class="array">
                         <li>
                             {{product.size}}
                         </li>
                     </ul>
 
-                    <h3>
+                    <span class="hr">
+                    </span>
+
+                    <h3 class="subtitle">
                         length
                     </h3>
-                    <ul>
+                    <ul class="array">
                         <li>
                             {{product.length}}
                         </li>
                     </ul>
+
+                    <span class="hr">
+                    </span>
 
                     <div class="cartinteract">
                         <form action="post">
@@ -85,10 +94,14 @@
                                 quantity:
                             </label>
                             <br>
+
                             <input type="number" name="quantity" min="1" value="1">
+                            <label for="quantity" class="meme">
+                                +
+                            </label>
                             <input type="submit" value="add to cart">
                         </form>
-                        <ul>
+                        <ul class="cart-settings">
                             <li>
                                 <button>
                                     + Add to Wishlist

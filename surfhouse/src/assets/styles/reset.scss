@@ -18,8 +18,14 @@ svg {
 }
 
 ::selection {
-    background: $brighttoned; /* WebKit/Blink Browsers */
+    background: lightgray; /* WebKit/Blink Browsers */
   }
   ::-moz-selection {
-    background: $brighttoned; /* Gecko Browsers */
+    background: lightgray; /* Gecko Browsers */
   }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
