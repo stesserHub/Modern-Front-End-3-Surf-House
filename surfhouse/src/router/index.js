@@ -9,7 +9,7 @@ import {Tabs, Tab} from 'vue-tabs-component';
 import { Carousel } from 'bootstrap-vue/es/components';
 
 Vue.use(BootstrapVue);
-// Vue.component('b-carousel', bCarousel);
+Vue.use(Carousel);
 
 Vue.use(VeeValidate);
 Vue.use(Router);

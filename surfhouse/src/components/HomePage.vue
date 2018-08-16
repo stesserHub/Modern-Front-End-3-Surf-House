@@ -3,18 +3,13 @@
         <div class="placeholder">
             <img id="logo" src="../../static/carouselplaceholder.png"/>
         </div>
-        <!-- render 6 products from the product array -->
-        <div class="productgallery">
-            <div class="gallery-top">
-                <h2>
-                    <i>
-                        new products
-                    </i>
-                    <span class="gallerynav">
-                        &lt; &gt;
-                    </span>
-                </h2>
-            </div>
+
+
+
+
+
+
+
 
             <div>
     <b-carousel id="carousel1"
@@ -70,6 +65,18 @@
 
   </div>
 
+        <!-- render 6 products from the product array -->
+        <div class="productgallery">
+            <div class="gallery-top">
+                <h2>
+                    <i>
+                        new products
+                    </i>
+                    <span class="gallerynav">
+                        &lt; &gt;
+                    </span>
+                </h2>
+            </div>
 
             <div class="product" v-for="product in products.slice(0, 6)" :key="product.id">
                 <router-link :to="/product/ + product.id">
