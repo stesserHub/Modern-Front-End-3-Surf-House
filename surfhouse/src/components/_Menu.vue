@@ -1,7 +1,7 @@
 <template>
     <section>
         <div id="menu">
-            <div class="menutitle">
+            <div class="title">
                 <h4>
                     menu
                 </h4>
