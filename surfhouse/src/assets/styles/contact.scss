@@ -1,0 +1,55 @@
+@import "variables";
+
+.contact {
+    #title {
+        margin-bottom:55px;
+        font-size: 22px;
+    }
+    p {
+        margin-bottom:35px;
+    }
+
+    form {
+
+        textarea {
+            display: block;
+            width: 100%;
+            height: 150px;
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        input {
+
+            
+            width:100%;
+            height: 25px;
+
+            display: block;
+            margin-bottom: 10px;
+            padding-left: 18px;
+
+
+            &[type=text], [type=email] {                
+
+                background-color: $plain;
+                border-color: 1px solid lightgray;
+                font-size: 12px;
+            }
+
+            &[type=submit] {
+                margin-top: 20px;
+                height: 48px;
+                
+                border: none;
+                color: $plain;
+                background-color: $cta1;
+
+                text-transform: uppercase;
+            }
+        }
+    }
+}

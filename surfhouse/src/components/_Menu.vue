@@ -16,12 +16,12 @@
                     </a>
                     <a href="#/">
                         <li>
-                            home
+                            product
                         </li>
                     </a>
                     <a href="#/contact/">
                         <li>
-                            home
+                            contact
                         </li>
                     </a>
                 </ul>

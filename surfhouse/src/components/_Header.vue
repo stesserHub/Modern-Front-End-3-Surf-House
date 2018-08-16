@@ -52,7 +52,7 @@
                 </div>
                 <div class="cartsearch">
                     <form action="oist">
-                        <input type="text" name="search" placeholder="     search">
+                        <input type="text" name="search" placeholder="search">
                         <input type="submit" value="O">
                     </form>
                 </div>

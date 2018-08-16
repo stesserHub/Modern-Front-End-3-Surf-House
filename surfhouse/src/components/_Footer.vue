@@ -138,7 +138,7 @@
                         </p>
                         <div class="emailsignup">
                             <form action="post">
-                                <input type="text" placeholder="     insert email">
+                                <input type="text" placeholder="insert email">
                                 <input type="submit">
                             </form>
                         </div>
