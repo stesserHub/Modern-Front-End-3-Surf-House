@@ -4,6 +4,9 @@
             <img id="logo" src="../../static/carouselplaceholder.png"/>
         </div>
 
+        <div id="fuckingbootstrap">
+
+        
         <!-- start of the devils work -->
         <div>
             <b-carousel id="carousel1"
@@ -59,13 +62,14 @@
 
             </b-carousel>
 
-            <p class="mt-4">
+            <!-- <p class="mt-4">
                 Slide #: {{ slide }}
             <br>
                 Sliding: {{ sliding }}
-            </p>
+            </p> -->
         </div>
         <!-- end of the devils work -->
+        </div>
 
         <!-- render 6 products from the product array -->
         <div class="productgallery">
@@ -120,7 +124,9 @@
 <script>
 
 import axios from "axios";
-import bCarousel from 'bootstrap-vue/es/components/carousel/carousel';
+
+// garbage bootstrap
+// import bCarousel from 'bootstrap-vue/es/components/carousel/carousel';
 
 
 export default {
@@ -138,12 +144,13 @@ export default {
         this.getProducts();
     },
     methods: {
-        onSlideStart (slide) {
-            this.sliding = true
-        },
-        onSlideEnd (slide) {
-            this.sliding = false
-        },
+        // this bootstrap is triggering me
+        // onSlideStart (slide) {
+        //     this.sliding = true
+        // },
+        // onSlideEnd (slide) {
+        //     this.sliding = false
+        // },
         // method for retrieving product data using axios
         getProducts: function() {
             axios
