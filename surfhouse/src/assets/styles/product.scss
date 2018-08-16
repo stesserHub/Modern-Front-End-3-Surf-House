@@ -122,6 +122,9 @@ label {
             width: 391px;
 
             .img-preview {
+
+                // pixel-perfect
+                border-radius: 1px;
             
                 width: 375px;
                 height: 375px;
@@ -134,12 +137,18 @@ label {
                 
             }
 
+            .img-center {
+
+                padding-left: 60px;
+            }
             .img-gallery {
                 
                 width: 70px;
                 height: 110px;
 
-                float: left;;
+                
+
+                float: left;
 
                 margin-right: 30px;
 
@@ -159,14 +168,17 @@ label {
 
                 bottom: 38px;
 
+                background-color: transparent;
+                border: none;
+                
 
                 
                 &.a-left {
-                    left: 0;
+                    left: 23px;
                 }
 
                 &.a-right {
-                    right: 0;
+                    right: 23px;
                 }
             }
         }

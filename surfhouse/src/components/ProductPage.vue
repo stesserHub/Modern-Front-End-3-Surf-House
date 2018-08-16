@@ -7,12 +7,16 @@
 
                 <div class="img-preview" v-bind:style="{ backgroundImage: 'url(' + product.img1 + ')' }" >
                 </div>
-                <div class="img-gallery" v-bind:style="{ backgroundImage: 'url(' + product.img1 + ')' }">
+
+                <div class="img-center">
+                    <div class="img-gallery" v-bind:style="{ backgroundImage: 'url(' + product.img1 + ')' }">
+                    </div>
+                    <div class="img-gallery" v-bind:style="{ backgroundImage: 'url(' + product.img2 + ')' }">
+                    </div>
+                    <div class="img-gallery" v-bind:style="{ backgroundImage: 'url(' + product.img3 + ')' }">
+                    </div>
                 </div>
-                <div class="img-gallery" v-bind:style="{ backgroundImage: 'url(' + product.img2 + ')' }">
-                </div>
-                <div class="img-gallery" v-bind:style="{ backgroundImage: 'url(' + product.img3 + ')' }">
-                </div>
+                
 
                 <button class="arrow a-left">
                     &lt;
