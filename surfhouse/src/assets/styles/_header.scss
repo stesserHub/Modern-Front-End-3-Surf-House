@@ -1,6 +1,8 @@
 @import "variables";
 
 header {
+
+    position: relative;
     height: 150px;
 
     margin-bottom: 40px;
@@ -14,6 +16,8 @@ header {
     }
 
     #cart {
+
+        position: relative;
         float: right;
     
         width: 270px;
@@ -88,6 +92,9 @@ header {
     
         .cartsearch {
     
+            position: absolute;
+            bottom: 0;
+
             form {
                 input {
                     border: none;
